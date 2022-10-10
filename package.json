@@ -1,21 +1,23 @@
 {
-  "name": "goit-js-hw-08",
+  "name": "goit-js-hw-10",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://valeriidroniak.github.io/goit-js-hw-08/",
+  "homepage": "https://valeriidroniak.github.io/goit-js-hw-10/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ValeriiDroniak/goit-js-hw-08.git"
+    "url": "git+https://github.com/ValeriiDroniak/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Valerii Droniak <droniak.valerii@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
