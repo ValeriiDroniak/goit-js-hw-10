@@ -19,14 +19,14 @@ async function onSearch(evt) {
 
     if (!searchText) {
         removeMarkup();
-    }
+    } else {
+        try {
+            const countries = await fetchCountries(searchText);
 
-    try {
-        const countries = await fetchCountries(searchText);
-
-        renderSearchCountry(countries);
-    } catch (error) {
-        onFetchError();
+            renderSearchCountry(countries);
+        } catch (error) {
+            onFetchError();
+        }
     }
 }
 
